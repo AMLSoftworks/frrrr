@@ -28,11 +28,13 @@ const Home = () => {
 
   let salutation = "";
   if (currentHour >= 5 && currentHour < 12) {
-    salutation = "Good morning";
+    salutation = "Good Morning";
   } else if (currentHour >= 12 && currentHour < 18) {
-    salutation = "Good afternoon";
+    salutation = "Good Afternoon";
+  } else if (currentHour >= 18 && currentHour < 20) {
+    salutation = "Good Evening";
   } else {
-    salutation = "Good evening";
+    salutation = "Good Night";
   }
 
   // Fetch user info for the name
