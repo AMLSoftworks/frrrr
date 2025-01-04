@@ -19,7 +19,7 @@ const Sidebar = ({ showNav, setShowNav }) => {
     const apkUrl = "https://cdn.sillyfa.de/queueit.apk";
     const link = document.createElement("a");
     link.href = apkUrl;
-    link.download = "TunePulse.apk";
+    link.download = "QueueIt.apk";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -45,17 +45,17 @@ const SplashScreen = () => {
     <div className="splash-screen fixed inset-0 flex flex-col justify-center items-center z-50 bg-transparent">
       {/* Logo */}
       <img
-        src="https://res.cloudinary.com/dgrxq7vm5/image/upload/v1731651165/hebakdcgeai3uutryoyk.png"
-        alt="TunePulse Logo"
+        src="https://raw.githubusercontent.com/AMLSoftworks/frrrr/refs/heads/main/src/assets/hayasaka.png"
+        alt="QueueIt Logo"
         className="splash-logo w-36 h-36 mb-4"
       />
       {/* Website Name */}
       <h1 className="website-name text-white text-4xl font-bold opacity-0 mb-2">
-        TunePulse
+        QueueIt
       </h1>
       {/* Credits */}
       <p className="credits text-white opacity-0 text-xl">
-        Brought to you by Vaivik Shah
+        Brought to you by Sillyfade
       </p>
     </div>
   );
