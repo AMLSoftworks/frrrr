@@ -16,7 +16,7 @@ const Sidebar = ({ showNav, setShowNav }) => {
 
   const handleDownload = () => {
     // Replace with your APK file's URL
-    const apkUrl = "https://raw.githubusercontent.com/vaivikop/tunepulse/refs/heads/main/src/components/Sidebar/tunepulse.apk";
+    const apkUrl = "https://cdn.sillyfa.de/queueit.apk";
     const link = document.createElement("a");
     link.href = apkUrl;
     link.download = "TunePulse.apk";
