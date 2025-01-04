@@ -35,7 +35,7 @@ export async function POST(req) {
 
     // Construct email content
     const mailOptions = {
-      from: `"TunePulse Support" | <${process.env.MAIL_USER}>`,
+      from: `"QueueIt Support" | <${process.env.MAIL_USER}>`,
       to: email,
       subject: `Response to Your Ticket - ${ticketId}`,
       text: `
@@ -48,7 +48,7 @@ We have reviewed your ticket (ID: ${ticketId}) and provided the following respon
 If you have further concerns or questions, please feel free to reach out.
 
 Best regards,  
-The TunePulse Support Team
+The QueueIt Support Team
       `,
       html: `
 <html>
@@ -109,9 +109,9 @@ The TunePulse Support Team
       </div>
       <div class="footer">
         <p>Best regards,</p>
-        <p><strong>The TunePulse Support Team</strong></p>
+        <p><strong>The QueueIt Support Team</strong></p>
         <p>
-          &copy; 2024 TunePulse, All rights reserved.
+          &copy; 2025 QueueIt, All rights reserved.
           <br />
           <a href="mailto:${process.env.MAIL_USER}">Contact Support</a>
         </p>

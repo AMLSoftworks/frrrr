@@ -77,7 +77,7 @@ export async function POST(req) {
     });
 
     const mailOptions = {
-      from: `"TunePulse Support" <${process.env.MAIL_USER}>`, // Make sure the from address is branded
+      from: `"QueueIt Support" <${process.env.MAIL_USER}>`, // Make sure the from address is branded
       to: email,
       subject: `Ticket Created - ${ticketId}`,
       text: `
@@ -99,7 +99,7 @@ export async function POST(req) {
         If you have any further questions, feel free to reply to this email or contact us directly at shahvaivik@gmail.com.
     
         Best regards,
-        The TunePulse Support Team
+        The QueueIt Support Team
       `,
       html: `
         <html>
@@ -182,7 +182,7 @@ export async function POST(req) {
     
               <div class="footer">
                 <p>If you have any further questions, feel free to reply to this email or contact us directly at <a href="mailto:shahvaivik@gmail.com">shahvaivik@gmail.com</a>.</p>
-                <p>&copy; 2024 TunePulse, All rights reserved.</p>
+                <p>&copy; 2024 QueueIt, All rights reserved.</p>
               </div>
             </div>
           </body>
