@@ -56,9 +56,9 @@ export async function POST(req) {
 
       // Send the verification email
       const mailOptions = {
-        from: `"TunePulse Support" <${process.env.MAIL_USER}>`,
+        from: `"QueueIt Support" <${process.env.MAIL_USER}>`,
         to: user.email,
-        subject: "Verify Your Account - TunePulse",
+        subject: "Verify Your Account - QueueIt",
         text: `Hi ${user.userName}, Please verify your account using this link: ${verificationUrl}`,
         html: `
           <html>
@@ -74,14 +74,14 @@ export async function POST(req) {
               <div class="email-container">
                 <h2>Verify Your Account</h2>
                 <p>Hello ${user.userName},</p>
-                <p>Thank you for joining TunePulse! Please verify your account by clicking the button below:</p>
+                <p>Thank you for joining QueueIt! Please verify your account by clicking the button below:</p>
                 <a href="${verificationUrl}" class="button">Verify Account</a>
                 <p>If the button above doesn't work, you can copy and paste the following link into your browser:</p>
                 <p><a href="${verificationUrl}" style="color: #1da1f2; text-decoration: none;">${verificationUrl}</a></p>
                 <p>If you didn't create this account, please ignore this email.</p>
                 <p>This verification link will expire in 10 minutes.</p>
                 <div class="footer">
-                  <p>&copy; ${new Date().getFullYear()} TunePulse, All Rights Reserved</p>
+                  <p>&copy; ${new Date().getFullYear()} QueueIt, All Rights Reserved</p>
                 </div>
               </div>
             </body>

@@ -61,7 +61,7 @@ export async function POST(request) {
         <p>If the above link doesn't work, copy and paste the following URL in your browser:</p>
         <p>${url}</p>
         <p>This link will expire in 5 minutes.</p>
-        <p>Thank you,<br/>The TunePulse Team</p>
+        <p>Thank you,<br/>The QueueIt Team</p>
     `;
         const mail = await mailSender(user.email, title, body);
 
