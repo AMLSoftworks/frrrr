@@ -96,7 +96,7 @@ export async function POST(req) {
     
         We will get back to you shortly to resolve your issue. You can track the progress of your ticket by visiting your account page.
     
-        If you have any further questions, feel free to reply to this email or contact us directly at shahvaivik@gmail.com.
+        If you have any further questions, feel free to reply to this email or contact us directly at me@sillyfa.de.
     
         Best regards,
         The QueueIt Support Team
@@ -181,7 +181,7 @@ export async function POST(req) {
               <a href="#" class="button">Visit Support Portal</a>
     
               <div class="footer">
-                <p>If you have any further questions, feel free to reply to this email or contact us directly at <a href="mailto:shahvaivik@gmail.com">shahvaivik@gmail.com</a>.</p>
+                <p>If you have any further questions, feel free to reply to this email or contact us directly at <a href="mailto:me@sillyfa.de">me@sillyfa.de</a>.</p>
                 <p>&copy; 2024 QueueIt, All rights reserved.</p>
               </div>
             </div>
