@@ -70,7 +70,7 @@ const Help = () => {
             <FaEnvelope className="text-cyan-400 text-4xl" />
             <div>
               <h3 className="text-xl font-semibold text-cyan-400">Contact Us</h3>
-              <p className="text-sm text-gray-400">You can reach us at shahvaivik@gmail.com</p>
+              <p className="text-sm text-gray-400">You can reach us at me@sillyfa.de</p>
             </div>
           </div>
         </div>
