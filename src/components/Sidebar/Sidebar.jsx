@@ -69,7 +69,7 @@ return (
     
     {/* Footer Message */}
     <div className="text-center text-gray-400 text-sm mb-4">
-          <p>Created with ❤️ by Vaivik Shah</p>
+          <p>Created with ❤️ by sillyfade</p>
         </div>
 
     <div className="mb-28 text-gray-200 mx-3 flex gap-3">
