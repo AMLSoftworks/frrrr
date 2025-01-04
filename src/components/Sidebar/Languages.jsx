@@ -10,7 +10,8 @@ const Languages = () => {
   const [selectedLanguages, setSelectedLanguages] = useState([...languages]);
 
   const languageList = [
-    { id: "gujarati", label: "Gujarati" },
+    { id: "dutch", label: "Dutch" },
+    { id: "german", label: "German" },
     { id: "english", label: "English" },
     { id: "haryanvi", label: "Haryanvi" },
     { id: "punjabi", label: "Punjabi" },
@@ -19,6 +20,7 @@ const Languages = () => {
     { id: "tamil", label: "Tamil" },
     { id: "telugu", label: "Telugu" },
     { id: "odia", label: "Odia" },
+    { id: "gujarati", label: "Gujarati" },
     // Add more languages as needed
   ];
 
